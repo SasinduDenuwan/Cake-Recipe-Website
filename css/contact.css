@@ -1,0 +1,59 @@
+.contact {
+    text-align: center;
+    padding: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.contact h2{
+    font-size: 3.5rem;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    margin: 50px 50px;
+    border-radius: 50px;
+    background-color: #F5C5C8;
+    color: white;
+    -webkit-text-stroke: 1px #F5979D;
+}
+
+.message-container{
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send-btn{
+    background-color: #eea2a8;
+    width: 250px;
+    height: 50px;
+    font-family: "Lilita One", sans-serif;
+    border-radius: 50px;
+    color: white;
+    font-size: 2rem;
+    border: 5px solid pink;
+}
+
+#name, #email{
+    font-size: 1.5rem;
+    padding-left: 25px;
+    width: 80%;
+    height: 50px;
+    border-radius: 50px;
+    border: 5px solid pink;
+
+}
+
+#message{
+    font-size: 1.5rem;
+    padding-left: 25px;
+    width: 80%;
+    height: 40%;
+    border-radius: 10px;
+    border: 5px solid pink;
+}
+
+.send-btn:hover{
+    color: #F5979D;
+    background-color: white;
+}

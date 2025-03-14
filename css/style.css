@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("/assets/images/background-image-in-home.jpg");
+}
+
+section{
+    padding:3rem 9%;
+}
+
+.nav-home{
+    padding-top: 120px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: #55555540;
+    color: #555;
+    font-size: 14px;
+}
+
+footer a {
+    color: #0077b5;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: tranform 0.2s ease-in-out;
+}
+
+footer p{
+    font-size:1.2rem;
+}
+
+footer a:hover {
+    transform: scale(1.1);
+}

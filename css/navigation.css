@@ -1,0 +1,129 @@
+.nav-container{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-between;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    align-items: center;
+    background: linear-gradient(0deg, #F5C5C8 6%, #f5949a 100%);
+    box-shadow: 1px 1px 10px rgba(0,0,0, 0.1)
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-right: 75px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nav-links li a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo-container img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.nav-links li:hover{
+    transform: scale(1.4);
+}
+
+.menu-bar{
+    display: none;
+}
+
+#burger{
+    text-align: center;
+    align-content: center;
+    font-size:1.8rem;
+    color: white;
+    border: 5px solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#closeBtn{
+    text-align: center;
+    align-content: center;
+    font-size:1.8rem;
+    color: white;
+    border: 5px solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin-right: 5px;
+}
+
+.menu-panel {
+    background: linear-gradient(0deg, #F5C5C8 18%, #F5969C 81%);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: white;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: -100%;
+    transition: top 0.5s ease-in-out; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-panel.active {
+    top: 0; 
+}
+
+.menu-panel ul {
+    list-style: none;
+    padding: 50px 20px;
+}
+.menu-panel ul li {
+    margin-bottom: 16px;
+    transition: transform 0.2s ease-in-out;
+}
+.menu-panel ul li a {
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-style: normal;
+    color: white;
+}
+
+.menu-panel ul li:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:785px) {
+    .menu-bar{
+        display: initial;
+    }
+
+    .container-links{
+        display: none;
+    }
+
+    .menu-bar{
+        margin-right: 25px;
+    }
+}

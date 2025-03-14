@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 20px auto;
+    background: #faf2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navBar {
+    background: #fff;
+    padding: 10px 0;
+    margin-top: 8px;
+    text-align: right;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+}
+
+.ingredints{
+
+    border-radius: 24px;
+}
+
+.navBar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navBar ul li {
+    display: inline;
+    margin: 0px 15px;
+    font-size: 20px;
+
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border: 1 px solid #333;
+}
+
+.navBar ul li a:hover {
+    color: #d2691e;
+    font-size: inherit;
+    font-weight: bold;
+    border-radius: 32px;
+
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    color: #444;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.imageOfCake {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imageOfCake img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul, ol {
+    padding: 10px 20px;
+    line-height: 1.6;
+    font-size: large;
+    font-weight: 400;
+}
+
+.video iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    height: 315px;
+    border-radius: 10px;
+}
+
+.tblOfNutritions {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.tblOfNutritions th, .tblOfNutritions td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.tblOfNutritions th {
+    background-color: #f4f4f4;
+}
+
+.tblOfNutritions td {
+    background-color: #ffffff;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+#footerText {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.step{
+    text-align: left;
+    font-size: x-large;
+}
+
+#prepareTime{
+    font-size: x-large;
+}
