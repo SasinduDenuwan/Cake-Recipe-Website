@@ -21,8 +21,6 @@ body{
 footer {
     text-align: center;
     width: 100%;
-    position: absolute;
-    bottom: 0;
     padding: 10px;
     background-color: #55555540;
     color: #555;
